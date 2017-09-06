@@ -1,0 +1,18 @@
+{
+    "name": "common/redis",
+    "description": "This is a public redis singleton model",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alice",
+            "email": "alice.tong@doohui.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "commom\\redis": "src/common/redis"
+        }
+    }
+}
